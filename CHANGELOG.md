@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add `exception` flag in `pipelined` allowing failed commands to be returned in the result array when set to `false`. See #187.
+
 # 0.21.1
 
 - Handle unresolved Sentinel master/replica error when displaying server URL in exceptions. See #182.
